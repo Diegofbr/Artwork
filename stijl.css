@@ -1,0 +1,130 @@
+main{
+     border: 8px black solid;
+     width: 680px;
+     height: 500px;
+     margin: 25px auto;
+     position: relative;
+     box-sizing:border-box;
+}
+div{
+    border: 8px black solid;
+    position: absolute;
+}
+div:first-child{
+background-color: red;
+width: 120px;
+height: 100px;
+top: 0;
+left:0;
+border-top: 0;
+border-left:0;
+}
+div:nth-child(2){
+background-color: red;
+width: 120px;
+height: 70px;
+top: 0;
+right: 0;
+border-top: 0;
+border-right: 0;
+}
+div:nth-child(3){
+ background-color: red;
+ bottom: 10px;
+ left: 10px;
+ height: 100px;
+ width: 130px;
+}
+div:nth-child(4){
+  background-color: red;
+  bottom: 20px;
+  right: 10px;
+  height: 90px;
+  width: 300px;
+}
+div:nth-child(5){
+  background-color: #3F6838;
+  left: 150px;
+  height: 280px;
+  width: 50px;
+  border-top: 0;
+}
+div:nth-child(6){
+  background-color: #3F6838;
+  left: 240px;
+  top: 150px;
+  height: 60px;
+  width: 60px;
+  z-index: 2;
+}
+div:nth-child(7){
+  background-color: #3F6838;
+  left: 260px;
+  top: 120px;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+}
+div:nth-child(8){
+  background-color: #FCE65B;
+  width: 340px;
+  height: 90px;
+  bottom: 70px;
+  left: 90px;
+}
+div:nth-child(9){
+  background-color: #FCE65B;
+  width: 25px;
+  height: 100px;
+  top: 0;
+  border-top: 0;
+  right: 270px;
+}
+div:nth-child(10){
+  background-color: #FCE65B;
+  width: 40px;
+  height: 250px;
+  right: 0;
+  border-right: 0;
+  top: 50px;
+}
+div:nth-child(11){
+  background-color: white;
+  width: 100px;
+  height: 240px;
+  top: 83px;
+  right: 90px;
+  z-index: 1;
+}
+div:nth-child(12){
+    background-color: white;
+    width: 80px;
+    height: 100px;
+    right: 290px;
+    top: 150px;
+
+}
+div:nth-child(13){
+  background-image: url(bluedots.jpg);
+  width: 40px;
+  height: 240px;
+  top: 80px;
+  left: 60px;
+  border-color: #1D4189;
+}
+div:nth-child(14){
+  background-image: url(bluedots.jpg);
+  width: 350px;
+  height: 40px;
+  bottom: 40px;
+  left: 130px;
+  border-color: #1D4189;
+}
+div:nth-child(15){
+  background-image: url(bluedots.jpg);
+  width: 90px;
+  height: 230px;
+  top: 25px;
+  right: 140px;
+  border-color: #1D4189;
+}
